@@ -49,7 +49,7 @@ def get_average_heat_level(spicy_foods):
         total = 0
         for food_data in spicy_foods:
             total += food_data['heat_level']
-        print (total // 3)
+        print (total // len(food_data))
 
 def create_spicy_food(spicy_foods, spicy_food):
     pass
